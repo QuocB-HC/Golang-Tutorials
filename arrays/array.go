@@ -1,6 +1,8 @@
 package arrays
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func BasicArray() {
 	var a [2]string

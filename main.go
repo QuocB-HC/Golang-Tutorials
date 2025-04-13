@@ -2,10 +2,7 @@ package main
 
 import (
 	"fmt"
-	// "test-app/interfaces"
-	// "test-app/basic"
-	"test-app/generics"
-	"test-app/maps"
+	"test-app/selects"
 )
 
 func main() {
@@ -33,6 +30,8 @@ func main() {
 	// interfaces.TypeAssertion(true)
 	// interfaces.Stringer()
 
-	maps.MapInt()
-	generics.MapAny()
+	// goroutines.SaySomething()
+	// goroutines.SayWithWaitGroup()
+	// channels.ChannelBuffer()
+	selects.EvenAndOdd()
 }

@@ -1,4 +1,4 @@
-package basic
+package maths
 
 import (
 	"math"
@@ -7,6 +7,10 @@ import (
 
 func RandomNumber() int {
 	return rand.Intn(100)
+}
+
+func Add(x, y int) int {
+	return x + y
 }
 
 func SqrtNumber(x float64) float64 {
