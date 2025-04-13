@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"test-app/flowcontrols"
+	"test-app/maps"
 )
 
 func main() {
 	fmt.Println("Hello World!")
 
-	flowcontrols.ForWithRange()
+	maps.MapExample2()
 }
