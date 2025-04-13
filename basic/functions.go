@@ -14,3 +14,15 @@ func SplitFunction(sum int) (x, y int) {
 	y = sum - x
 	return
 }
+
+func FunctionValue(fn func(float64, float64) float64) float64 {
+	return fn(3, 4)
+}
+
+func FunctionClosure() func(int) int {
+	sum := 0
+	return func(x int) int {
+		sum += x
+		return sum
+	}
+}
