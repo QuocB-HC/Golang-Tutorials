@@ -4,6 +4,7 @@ import (
 	"fmt"
 	// "test-app/interfaces"
 	// "test-app/basic"
+	"test-app/generics"
 	"test-app/maps"
 )
 
@@ -33,4 +34,5 @@ func main() {
 	// interfaces.Stringer()
 
 	maps.MapInt()
+	generics.MapAny()
 }
