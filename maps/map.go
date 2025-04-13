@@ -46,3 +46,19 @@ func MulatingMap() {
 	v, ok := m["Answer"]
 	fmt.Println("The value:", v, "Present?", ok)
 }
+
+func mapInt(arr []int , f func(int) int) []int {
+	result := make([]int, len(arr))
+	for i, v := range arr {
+		result[i] = f(v)
+	}
+	return result
+}
+
+func MapInt() {
+	arr := []int{1, 2, 3, 4, 5}
+	rs := mapInt(arr, func(i int) int {
+		return i * 2
+	})
+	fmt.Println(rs)
+}

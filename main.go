@@ -2,7 +2,9 @@ package main
 
 import (
 	"fmt"
+	// "test-app/interfaces"
 	// "test-app/basic"
+	"test-app/maps"
 )
 
 func main() {
@@ -24,4 +26,11 @@ func main() {
 	// 		add(i), // Đã tạo ra biến sum bên ngoài hàm closure nên mỗi lần gọi hàm closure sẽ cộng dồn vào biến sum
 	// 	)
 	// }
+
+	// interfaces.TestInterface()
+	// interfaces.EmptyInterface(5)
+	// interfaces.TypeAssertion(true)
+	// interfaces.Stringer()
+
+	maps.MapInt()
 }
