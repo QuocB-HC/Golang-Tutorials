@@ -41,3 +41,21 @@ func InfiniteLoop() {
 		}
 	}
 }
+
+func ForWithRange() {
+	var pow = []int{1, 2, 4, 8, 16, 32, 64, 128}
+
+	for i, v := range pow {
+		fmt.Printf("2^%d = %d\n", i, v)
+	}
+
+	fmt.Println("\nUsing _ to ignore index")
+	for _, v := range pow {
+		fmt.Println(v)
+	}
+
+	fmt.Println("\nUsing _ to ignore value")
+	for i := range pow {
+		fmt.Println(i)
+	}
+}

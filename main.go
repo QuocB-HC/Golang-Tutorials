@@ -2,13 +2,11 @@ package main
 
 import (
 	"fmt"
-	"test-app/slices"
+	"test-app/flowcontrols"
 )
 
 func main() {
 	fmt.Println("Hello World!")
 
-	// slices.JoinInString()
-	// slices.SlicesOfSlices()
-	slices.AppendSlice()
+	flowcontrols.ForWithRange()
 }
